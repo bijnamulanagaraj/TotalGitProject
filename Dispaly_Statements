@@ -1,5 +1,8 @@
 name = "Hello,World,python"
 
-[print(word) for word in name.split(",")]
+splitting_words = name.split(",")
+
+for word in splitting_words:
+    print(word)
 
 
